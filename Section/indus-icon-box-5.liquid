@@ -1,0 +1,255 @@
+<style>
+.id_{{ section.id }}{
+  max-width:100%;
+  width:100%;
+  padding:60px 0px;
+  background-color:#3540b3;
+}
+.id_{{ section.id }} .container{
+  max-width:1200px;
+  width:100%;
+  margin:0px auto;
+  text-align: center;
+  
+}
+.id_{{ section.id }} .container .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin:-20px;
+}  
+.id_{{ section.id }} .container .row .col{
+  max-width:20%;
+  width:100%;
+  padding:20px;
+  box-sizing: border-box;
+} 
+
+
+  
+.id_{{ section.id }} h2{
+    font-size: 40px;
+    line-height: 120%;
+    font-weight: 300;
+    color:#ffffff;
+    margin:0px 0px 5px 0px;
+   text-align: center;
+}
+
+.id_{{ section.id }} p{
+      font-size: 18px;
+    line-height: 140%;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0px 0px 30px 0px;
+    text-align: center;
+     font-style: italic;
+}
+
+
+
+  
+   .id_{{ section.id }} .icon_box h3 {
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+     font-style: italic;
+} 
+  
+
+
+  
+.id_{{ section.id }} .btn {
+    display: inline-block;
+    text-decoration: none;
+    transition-duration: .3s;
+    background-color: #e68f32;
+    color: #ffffff;
+    padding: 8px 24px;
+    border: 2px solid #e68f32;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    border-radius: 4px;
+    margin:50px 0px 0px 0px;
+}
+  
+.id_{{ section.id }} .btn:hover{
+   background-color:transparent;
+}
+
+.id_{{ section.id }} img{
+  max-width:40px;
+  width:100%;
+ dispaly:block;
+ object-fit: contain;
+ margin:0px auto 8px;
+}
+
+@media(max-width:768px){
+  
+  .id_{{ section.id }}{
+    padding:40px 20px;
+  }
+  
+.id_{{ section.id }} .container .row{
+    margin:-10px;
+    justify-content:center;
+}
+  
+.id_{{ section.id }} .container .row .col{
+  max-width:50%;
+  padding:10px;
+}
+  
+.id_{{ section.id }} img{
+  max-width:50px;
+  margin:0px auto 10px;
+}
+  
+.id_{{ section.id }} h2{
+    font-size: 30px;
+    margin: 0px 0px 15px 0px;
+}  
+
+  .id_{{ section.id }} h3{
+    font-size: 20px;
+}
+
+
+.id_{{ section.id }} p{
+    font-size: 16px;
+    max-width: 300px;
+    margin: 0px auto 25px;
+}
+  
+
+  .id_{{ section.id }} .btn{
+    font-size: 16px;
+    margin:30px 0px 0px 0px;
+}
+
+  
+ } /*media query */
+  
+</style>
+
+
+
+<section class="id_{{ section.id }}">
+  <div class="container">
+      {% if section.settings.title != blank %}
+           <h2>{{ section.settings.title }}</h2>
+    {% endif %}
+    {% if section.settings.des != blank %}
+         <p>{{ section.settings.des }}</p>
+    {% endif %}
+    
+     <div class="row">
+         {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'icon_box' %}
+              <div class="col">
+                <div class="icon_box">  
+                    {% if block.settings.img != blank %}
+                          <img src="{{ block.settings.img | image_url }}" alt="{{ block.settings.img.alt }}"
+                           width="100%" height="100%">
+                      {% endif %}  
+                   {% if block.settings.title != blank %}
+                       <h3>{{ block.settings.title }}</h3>
+                    {% endif %}
+                   {% if block.settings.des != blank %}
+                       <p>{{ block.settings.des }}</p>
+                    {% endif %}
+              </div>
+          </div>
+
+         {% endcase %}
+       {% endfor %}
+           </div>
+     {% for block in section.blocks %}
+          {% case block.type %}
+              {% when 'buttom' %}
+               {% if block.settings.btn_url != blank %}
+                   <a class="btn" href="{{ block.settings.btn_url }}">
+                    {{ block.settings.btn_text }}
+                      </a>
+               {% endif %}
+         {% endcase %}
+   {% endfor %}
+                      
+  </div>
+</section>
+
+
+
+
+
+
+{% schema %}
+  {
+    "name": "Indus Icon Box 5",
+    "settings": [
+       {
+        "type": "text",
+        "label": "Title",
+        "id": "title"
+      },
+      {
+        "type": "textarea",
+        "label": "Description",
+        "id": "des"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "icon_box",
+        "name":"Icon Box",
+        "limit": 5,
+        "settings": [
+          {
+            "type": "image_picker",
+            "label": "Select Image",
+            "id": "img"
+          },
+          {
+          "type": "text",
+          "label": "Title",
+          "id": "title"
+         },
+          {
+          "type": "text",
+          "label": "Description",
+          "id": "des"
+         }
+
+        ]
+      },
+      {
+        "type": "buttom",
+         "name":"Buttom",
+        "limit": 1,
+        "settings": [
+      {
+        "type": "text",
+        "label": "Buttom Text",
+        "id": "btn_text",
+        "default":"TRY NOW"
+      },
+      {
+        "type": "url",
+        "label": "Buttom Url",
+        "id": "btn_url"
+      },
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Indus Icon Box 5"
+      }
+    ]
+  }
+{% endschema %}

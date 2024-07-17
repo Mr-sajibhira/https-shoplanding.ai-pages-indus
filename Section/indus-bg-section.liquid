@@ -1,0 +1,179 @@
+<style>
+.id_{{ section.id }}{
+background-image: url({{section.settings.bg_img | image_url}});
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+padding:60px 0px;
+}  
+.id_{{ section.id }} .container{
+  max-width:1200px;
+  width:100%;
+  margin:0px auto;
+}
+
+.id_{{ section.id }} .container .content{
+  max-width:50%;
+  box-sizing: border-box;
+   text-align: center;
+}
+
+
+  
+.id_{{ section.id }} .container .content h2{
+  font-size:40px;
+  font-weight:300;
+  line-height:120%;
+  color:#ffffff;
+  margin:0px 0px 10px 0px;
+  text-align: center;
+}
+  
+.id_{{ section.id }} .container .content p{
+  font-size:18px;
+  font-weight:400;
+  line-height:140%;
+  color:#ffffff;
+  margin:0px 0px 10px 0px;
+  text-align: center;
+}  
+
+.id_{{ section.id }} .content .sub_title{
+  margin:0px auto 30px auto !important;
+}
+.id_{{ section.id }} .des{
+    font-size:18px;
+   font-weight:400;
+   line-height:140%;
+   color:#ffffff;
+  margin:0px 0px 30px 0px;
+}
+  
+
+
+.id_{{ section.id }} .btn {
+    display: inline-block;
+    text-decoration: none;
+    transition-duration: .3s;
+    background-color: #3540b3;
+    color: #ffffff;
+    padding: 8px 24px;
+    border: 1px solid #3540b3;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    border-radius: 4px;
+}
+  
+.id_{{ section.id }} .btn:hover{
+   background-color: #e68f32;
+   border: 1px solid #e68f32;
+}
+
+
+@media(max-width:767px){
+
+.id_{{ section.id }}{
+padding:60px 20px;
+}
+
+.id_{{ section.id }} .container .content{
+  max-width:100%;
+}  
+  
+.id_{{ section.id }} .container .content h2{
+  font-size:30px;
+  margin:0px 0px 20px 0px;
+}
+  
+.id_{{ section.id }} .content .sub_title{
+  max-width:100%;
+}
+  
+.id_{{ section.id }} .des{
+    font-size:16px;
+}
+
+.id_{{ section.id }} .btn {
+    font-size: 16px;
+}
+
+
+
+
+  
+} 
+
+
+  
+  
+  
+</style>
+
+
+
+<section class="id_{{ section.id }}">
+  <div class="container">
+    <div class="content">
+     
+       <h2>{{ section.settings.title }}</h2>
+       <p class="sub_title">{{ section.settings.sub_title }}</p>
+          {% if section.settings.btn_url !=blank %}
+          <a href="{{ section.settings.btn_url }}" class="btn">{{ section.settings.btn_text }}</a>
+          {% endif %}
+    </div>
+    
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Indus Bg Banner",
+    "settings": [
+      {
+        "type": "image_picker",
+        "label": "Select BG Image",
+        "id": "bg_img"
+      },
+      {
+        "type": "text",
+        "label": "Happy Customers",
+        "id": "happycustomer",
+        "default":"16,000+ Happy Customers"
+      },
+      {
+        "type": "text",
+        "label": "Title",
+        "id": "title",
+        "default":"Don't Miss Out on the Skin Transformation with Ancient Secrets!"
+      },
+      {
+        "type": "textarea",
+        "label": "Sub Title",
+        "id": "sub_title",
+        "default":"age-old ingredients, ethically-sourced, cutting-edge technology"
+      },
+      {
+        "type": "richtext",
+        "label": "Description",
+        "id": "des"
+      },
+      {
+        "type": "text",
+        "label": "Button Text",
+        "id": "btn_text",
+        "default":"Browse Our Favorites"
+      },
+      {
+        "type": "url",
+        "label": "Button",
+        "id": "btn_url"
+      }
+    ],
+    "presets": [
+      {
+      "name": "Indus Bg Banner"
+      }
+    ]
+  }
+{% endschema %}

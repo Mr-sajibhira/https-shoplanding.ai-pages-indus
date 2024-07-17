@@ -1,0 +1,160 @@
+<style>
+.id_{{ section.id }}{
+  padding:80px 0px;
+  background-color:{{section.settings.bg_color}};
+
+  }
+   
+.id_{{ section.id }} .container{
+    max-width:1200px;
+    width:100%;
+    margin:0px auto;
+}
+
+
+.id_{{ section.id }} .content{
+  text-align: center;
+  max-width:800px;
+  width:100%;
+  margin:0px auto;
+}
+.id_{{ section.id }} .content h2{
+    font-size: 40px;
+    line-height: 120%;
+    font-weight: 300;
+    color: {{section.settings.text_color}};
+    margin:0px 0px 30px 0px;
+}  
+  
+.id_{{ section.id }} .content .des{
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 500;
+    color: {{section.settings.text_color}};
+    margin:0px 0px 20px 0px;
+}    
+
+
+.id_{{ section.id }} .btn {
+    display: inline-block;
+    text-decoration: none;
+    transition-duration: .3s;
+    background-color: #3540b3;
+    color: #ffffff;
+    padding: 8px 24px;
+    border: 1px solid #3540b3;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    border-radius: 4px;
+}
+  
+.id_{{ section.id }} .btn:hover{
+   background-color: #e68f32;
+   border: 1px solid #e68f32;
+}
+    
+@media(max-width:768px){
+
+.id_{{ section.id }}{
+   padding:40px 20px;
+}
+
+
+  .id_{{ section.id }} .content h2{
+    font-size: 30px;
+    margin:0px 0px 20px 0px;
+} 
+  
+.id_{{ section.id }} .content .des{
+    font-size: 16px;
+    margin:0px 0px 20px 0px;
+}    
+
+  
+}    
+
+</style>
+
+<section class="id_{{ section.id }}">
+  <div class="container">
+         <div class="content">
+           {% if section.settings.title != blank %}
+             <h2>{{ section.settings.title }}</h2>
+             {% endif %}
+           {% if section.settings.des != blank %}
+              <p class="des">{{ section.settings.des }}</p>
+             {% endif %}
+              {% if section.settings.btn_url != blank %}
+                <a class="btn" href="{{ section.settings.btn_url }}">{{ section.settings.btn_text }}</a>
+             {% endif %}
+                        
+
+      </div>
+  </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "Indus Rich Text",
+    "settings": [
+          {
+            "type": "text",
+            "label": "Title",
+            "id": "title",
+            "default":"Indian Beauty Secrets in Your Hand"
+          },
+          {
+            "type": "textarea",
+            "label": "Description",
+            "id": "des",
+            "default":"We have thousands of online stores with zero fees. And because we’re a Mastercard, you can shop absolutely anywhere else online with a fee of up to $3 for purchases over $10."
+          },
+            {
+            "type": "text",
+            "label": "Buttom Text",
+            "id": "btn_text",
+            "default":"Explore Brands"
+          },
+          {
+            "type": "url",
+            "label": "Buttom Url",
+            "id": "btn_url"
+          },
+         {
+         "type": "color",
+           "label": "Backgroung Color",
+           "id": "bg_color",
+           "default":"#000000"
+        },
+        {
+         "type": "color",
+           "label": "Text Color",
+           "id": "text_color",
+           "default":"#ffffff"
+        }
+    ],
+    "presets": [
+      {
+       "name": "Indus Rich Text"
+      }
+    ]
+    
+  }
+{% endschema %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,408 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "zegsu-header-bar": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "indus_banner_wP6hnp": {
+      "type": "indus-banner",
+      "settings": {
+        "bg_img": "shopify:\/\/shop_images\/472241699419063450-b365cdf4-ca3f-44ee-bd61-0f00d261b4ed_1.jpg",
+        "happycustomer": "16,000+ Happy Customers",
+        "title": "Don't Miss Out on the Skin Transformation with Ancient Secrets!",
+        "sub_title": "age-old ingredients, ethically-sourced, cutting-edge technology",
+        "des": "<ul><li>Potent potions that transform skin<\/li><li>Weightless formulas that feel effortless<\/li><li>Vegan, non-toxic, and filled with botanicals<\/li><\/ul>",
+        "btn_text": "Browse Our Favorites",
+        "btn_url": "#"
+      }
+    },
+    "indus_icon_box_MtXbXm": {
+      "type": "indus-icon-box",
+      "blocks": {
+        "icon_box_zahVJn": {
+          "type": "icon_box",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/472241699419063450-4311afd0-4183-4e49-8833-b642c1d119b0.png",
+            "title": "Beauty pick of the year 2022 & 2023",
+            "des": ""
+          }
+        },
+        "icon_box_gacywk": {
+          "type": "icon_box",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/472241699419063450-35b25b9e-4b8d-497b-bcdb-0332407d7d5a.png",
+            "title": "\"Products that heal the skin barrier\"",
+            "des": ""
+          }
+        },
+        "icon_box_xaTjdw": {
+          "type": "icon_box",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/472241699419063450-1c59380f-5abc-42e6-81ab-44c0ca3b39b4-removebg-preview.png",
+            "title": "\"I'm addicted to this skin cream.\"",
+            "des": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_zahVJn",
+        "icon_box_gacywk",
+        "icon_box_xaTjdw"
+      ],
+      "settings": {
+      }
+    },
+    "indus_rich_text_KfW43n": {
+      "type": "indus-rich-text",
+      "settings": {
+        "title": "Indian Beauty Secrets in Your Hand",
+        "des": "",
+        "btn_text": "Explore Brands",
+        "btn_url": "",
+        "bg_color": "#ffffff",
+        "text_color": "#100f0e"
+      }
+    },
+    "indus_icon_box_5_3Gc6eX": {
+      "type": "indus-icon-box-5",
+      "blocks": {
+        "icon_box_rFXbFP": {
+          "type": "icon_box",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/472241699419063450-043b70ef-b919-46a2-a5e6-da5bb4771f7a.svg",
+            "title": "Draws on Ancient Secrets",
+            "des": ""
+          }
+        },
+        "icon_box_LDJNK9": {
+          "type": "icon_box",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/472241699419063450-590a4f7b-4e65-418b-9d92-8726b6a7222f.svg",
+            "title": "Avoids fragrances & chemical",
+            "des": ""
+          }
+        },
+        "icon_box_jEmhJV": {
+          "type": "icon_box",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/472241699419063450-18d9eced-0b8d-4f73-8db7-00910ab2977d.svg",
+            "title": "Planned with holistic botanicals in mind",
+            "des": ""
+          }
+        },
+        "icon_box_AV3RJY": {
+          "type": "icon_box",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/472241699419063450-7cee1e2c-d47d-4e75-8aa1-3d78cb3fb8c3.svg",
+            "title": "Dermatologist Approved",
+            "des": ""
+          }
+        },
+        "icon_box_a4zRbw": {
+          "type": "icon_box",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/472241699419063450-8fffe29c-7707-42a0-ac63-261487266dda.svg",
+            "title": "Never Tested on Animals",
+            "des": ""
+          }
+        },
+        "buttom_pJfyif": {
+          "type": "buttom",
+          "settings": {
+            "btn_text": "Unlock Glowing Skin",
+            "btn_url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_rFXbFP",
+        "icon_box_LDJNK9",
+        "icon_box_jEmhJV",
+        "icon_box_AV3RJY",
+        "icon_box_a4zRbw",
+        "buttom_pJfyif"
+      ],
+      "settings": {
+        "title": "OUR VALUES",
+        "des": "Transformational Skin Meets Transformational Practices"
+      }
+    },
+    "indus_image_box_TUzJyC": {
+      "type": "indus-image-box",
+      "blocks": {
+        "image_box_3Gb3VR": {
+          "type": "image_box",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/472241699419063450-3835d10e-1c9e-4ad8-a6e9-a4ac47a8b48c.jpg",
+            "title": "Non-Toxic",
+            "text": "Explore our large selection of timelessly elegant, conflict-free, and American-made rings. Keep in mind that with every purchase, we'll also provide clean water to someone in need."
+          }
+        },
+        "image_box_ckBgng": {
+          "type": "image_box",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/W1445R_03299_b1_s1_a1_1_m76_2000x2000_7174f465-6182-434b-bbfd-bf807d177af9.webp",
+            "title": "Spiritual",
+            "text": "Drawing inspiration from the revered practice of Shata Dhauta Ghrita—where copper's healing qualities are harnessed through alchemical processes—we've created a potion that transcends time to bring you the promise of youth and vitality."
+          }
+        },
+        "image_box_gnJxDB": {
+          "type": "image_box",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/assets_aa96744e7fe74e2a90d22918299c1f1d_aa25a6b797b3453da5360093222b6583.webp",
+            "title": "Vegan",
+            "text": "Traditional wisdom meets modern innovation with vegan ingredients like vegan ghee. It's not only regenerative but also boasts anti-aging and anti-inflammatory properties when combined with the magic of copper."
+          }
+        }
+      },
+      "block_order": [
+        "image_box_3Gb3VR",
+        "image_box_ckBgng",
+        "image_box_gnJxDB"
+      ],
+      "settings": {
+        "title": "ONE-TO-ONE IMPACT",
+        "des": "How We Make A Difference"
+      }
+    },
+    "indus_rich_text_zzmVeJ": {
+      "type": "indus-rich-text",
+      "settings": {
+        "title": "FAN FAVORITES",
+        "des": "",
+        "btn_text": "FREE Shipping",
+        "btn_url": "#",
+        "bg_color": "#ffffff",
+        "text_color": "#100f0e"
+      }
+    },
+    "indus_accordion_Yyy9Xd": {
+      "type": "indus-accordion",
+      "blocks": {
+        "accordion_GbAzzj": {
+          "type": "accordion",
+          "settings": {
+            "title": "Love, Indus uses ancient secrets",
+            "des": "where she advised leading luxury and consumer companies across Asia, North America and Europe on growth and innovation — all of which is a tremendous source of learning in her entrepreneurial journey. An avid traveler, explorer, and rainbow chaser, she likes to capture moments and craft stories."
+          }
+        },
+        "accordion_hQFgA9": {
+          "type": "accordion",
+          "settings": {
+            "title": "Love, Indus is holistic",
+            "des": "where she advised leading luxury and consumer companies across Asia, North America and Europe on growth and innovation — all of which is a tremendous source of learning in her entrepreneurial journey. An avid traveler, explorer, and rainbow chaser, she likes to capture moments and craft stories."
+          }
+        },
+        "accordion_JJQhxm": {
+          "type": "accordion",
+          "settings": {
+            "title": "Love, Indus is full of anti-oxidants",
+            "des": "where she advised leading luxury and consumer companies across Asia, North America and Europe on growth and innovation — all of which is a tremendous source of learning in her entrepreneurial journey. An avid traveler, explorer, and rainbow chaser, she likes to capture moments and craft stories."
+          }
+        },
+        "accordion_7KdLtK": {
+          "type": "accordion",
+          "settings": {
+            "title": "Love, Indus is sustainable",
+            "des": "where she advised leading luxury and consumer companies across Asia, North America and Europe on growth and innovation — all of which is a tremendous source of learning in her entrepreneurial journey. An avid traveler, explorer, and rainbow chaser, she likes to capture moments and craft stories."
+          }
+        }
+      },
+      "block_order": [
+        "accordion_GbAzzj",
+        "accordion_hQFgA9",
+        "accordion_JJQhxm",
+        "accordion_7KdLtK"
+      ],
+      "settings": {
+        "title": "What Makes Love, Indus Different?"
+      }
+    },
+    "indus_text_image_AczCxh": {
+      "type": "indus-text-image",
+      "blocks": {
+        "image_rTake9": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/472241699419063450-d1cdd7a2-88db-4daf-85d1-cd56b5411761.jpg",
+            "aspect-ratio": "8\/8"
+          }
+        },
+        "content_mtP34K": {
+          "type": "content",
+          "settings": {
+            "title": "The Love, Indus Story",
+            "sub_title": "My family secret can be your skin care secret weapon",
+            "des": "Surbhee Grover is the Founder of Love, Indus an opulent skincare brand that combines rare, regional riches from the Indian subcontinent with New York’s transformative tech. She started her career in personal care in India with industry leaders such as L’Oréal and Marico Industries before moving to New York and working with the global consulting firm Booz Allen, Hamilton (Booz & Co.) where she advised leading luxury and consumer companies across Asia, North America and Europe on growth and innovation — all of which is a tremendous source of learning in her entrepreneurial journey. An avid traveler, explorer, and rainbow chaser, she likes to capture moments and craft stories."
+          }
+        }
+      },
+      "block_order": [
+        "image_rTake9",
+        "content_mtP34K"
+      ],
+      "settings": {
+      }
+    },
+    "indus_table_C969DW": {
+      "type": "indus-table",
+      "blocks": {
+        "title_DyEhCK": {
+          "type": "title",
+          "settings": {
+            "title": "The Love, Indus Difference"
+          }
+        },
+        "table_header_EPDjAG": {
+          "type": "table_header",
+          "settings": {
+            "title_1": "",
+            "img": "shopify:\/\/shop_images\/472241699419063450-b1cf8d59-5ecc-4638-8902-25d6e17a9dcf.png",
+            "title_3": "OTHER PRODUCTS"
+          }
+        },
+        "table_list_WMTF9V": {
+          "type": "table_list",
+          "settings": {
+            "text": "Made without artificial fragrances",
+            "icon_colum_1": "check",
+            "icon_colum_2": "uncheck"
+          }
+        },
+        "table_list_HHLitm": {
+          "type": "table_list",
+          "settings": {
+            "text": "Made with Ajurvedic ingredients",
+            "icon_colum_1": "check",
+            "icon_colum_2": "uncheck"
+          }
+        },
+        "table_list_3Pmtdi": {
+          "type": "table_list",
+          "settings": {
+            "text": "Made without artificial colors",
+            "icon_colum_1": "check",
+            "icon_colum_2": "uncheck"
+          }
+        },
+        "table_list_hJyBac": {
+          "type": "table_list",
+          "settings": {
+            "text": "Made with biotransformation technology",
+            "icon_colum_1": "check",
+            "icon_colum_2": "uncheck"
+          }
+        },
+        "table_list_LDz7yB": {
+          "type": "table_list",
+          "settings": {
+            "text": "Made by a woman-owned brand",
+            "icon_colum_1": "check",
+            "icon_colum_2": "uncheck"
+          }
+        },
+        "table_list_LRaQLA": {
+          "type": "table_list",
+          "settings": {
+            "text": "Vegan",
+            "icon_colum_1": "check",
+            "icon_colum_2": "uncheck"
+          }
+        },
+        "table_list_RmEprn": {
+          "type": "table_list",
+          "settings": {
+            "text": "Never tested on animals",
+            "icon_colum_1": "check",
+            "icon_colum_2": "uncheck"
+          }
+        },
+        "table_list_zBDFMz": {
+          "type": "table_list",
+          "settings": {
+            "text": "FSC Certified",
+            "icon_colum_1": "check",
+            "icon_colum_2": "uncheck"
+          }
+        },
+        "table_list_7JKDyD": {
+          "type": "table_list",
+          "settings": {
+            "text": "Made without artificial colors",
+            "icon_colum_1": "check",
+            "icon_colum_2": "uncheck"
+          }
+        },
+        "btn_zLEqb4": {
+          "type": "btn",
+          "settings": {
+            "btn_text": "Explore Brands",
+            "btn_url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "title_DyEhCK",
+        "table_header_EPDjAG",
+        "table_list_WMTF9V",
+        "table_list_HHLitm",
+        "table_list_3Pmtdi",
+        "table_list_hJyBac",
+        "table_list_LDz7yB",
+        "table_list_LRaQLA",
+        "table_list_RmEprn",
+        "table_list_zBDFMz",
+        "table_list_7JKDyD",
+        "btn_zLEqb4"
+      ],
+      "settings": {
+      }
+    },
+    "indus_bg_section_7UczKi": {
+      "type": "indus-bg-section",
+      "settings": {
+        "bg_img": "shopify:\/\/shop_images\/472241699419063450-36ffc883-2136-4ccf-b514-b760360db608_2.jpg",
+        "happycustomer": "16,000+ Happy Customers",
+        "title": "RENEWED SKIN AWAITS",
+        "sub_title": "Get skincare that makes an everlasting impact",
+        "des": "",
+        "btn_text": "Browse Our Favorites",
+        "btn_url": "#"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "zegsu-header-bar",
+    "indus_banner_wP6hnp",
+    "indus_icon_box_MtXbXm",
+    "indus_rich_text_KfW43n",
+    "indus_icon_box_5_3Gc6eX",
+    "indus_image_box_TUzJyC",
+    "indus_rich_text_zzmVeJ",
+    "indus_accordion_Yyy9Xd",
+    "indus_text_image_AczCxh",
+    "indus_table_C969DW",
+    "indus_bg_section_7UczKi"
+  ]
+}
